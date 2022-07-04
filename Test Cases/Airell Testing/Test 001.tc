@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ini hanya coba</description>
+   <name>Test 001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>facb8c5b-555a-46ae-ba84-2593a92e1e0f</testCaseGuid>
+</TestCaseEntity>
