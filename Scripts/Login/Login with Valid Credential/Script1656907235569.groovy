@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://cms.demo.katalon.com/')
 
-WebUI.comment('ini yang farhan edit')
+WebUI.comment('ini comment')
 
 WebUI.closeBrowser()
 
