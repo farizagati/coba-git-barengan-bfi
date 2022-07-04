@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.waitForElementVisible(findTestObject('orangHrm'), 5)
+WebUI.waitForElementVisible(findTestObject('LoginObject/orangHrm'), 5)
 
-WebUI.click(findTestObject('txt_UsernameLoginPanel'))
+WebUI.setText(findTestObject('LoginObject/txt_UsernameLoginPanel'), username)
 
-WebUI.click(findTestObject('txt_PasswordLoginPanel'))
+WebUI.setText(findTestObject('LoginObject/txt_PasswordLoginPanel'), password)
 
-WebUI.click(findTestObject('btn_LoginPanel'))
+WebUI.click(findTestObject('LoginObject/btn_LoginPanel'))
 
-WebUI.verifyElementPresent(findTestObject('verif_Dashboard'), 0)
+WebUI.verifyElementPresent(findTestObject('LoginObject/btn_LoginPanel'), 3)
 
